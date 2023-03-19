@@ -17,7 +17,7 @@ public class Main {
         String firstName = new Scanner(System.in).next();
         System.out.println("Ile masz lat?");
         int age = new Scanner(System.in).nextInt();
-        System.out.println("Witaj " + firstName + "! Masz " + age + " lat."); 
+        System.out.println(String.format("Witaj %s. Masz %s lat.",firstName,age)); 
 
     }
 }
