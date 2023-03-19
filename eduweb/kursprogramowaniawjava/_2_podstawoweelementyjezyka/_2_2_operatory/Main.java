@@ -9,6 +9,7 @@ public class Main {
         System.out.println("a = a - b: " +( a-b));
         System.out.println("a = a * b: " +( a*b));
         System.out.println("a = a / b: " +( a/b));
+        System.out.println("a = a**: " + Math.pow(b,a*a));
         // System.out.println("a = a % b: " +( a&b));
     }
 }
