@@ -12,7 +12,14 @@ public class Main {
         }else if(a > 3){
             System.out.println("A jest większe od 3");
         }else{
-            System.out.println("A jest mniejsze od 3");
+            if(a < 0){
+                System.out.println("A jest mniejsze od 0");
+
+            }else if(a == 0){
+                System.out.println("A jest równe 0");
+            }else{
+                System.out.println("A jest mniejsze od 3");
+            }
         }
     }
 }
