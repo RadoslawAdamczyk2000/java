@@ -1,6 +1,13 @@
 package eduweb.kursprogramowaniawjava._3_rozpoczynamyprojektgry._3_5_enum;
 
 public class Main {
+
+    enum State {
+        EMPTY,
+        HIY,
+        MISS,
+        SUNK
+    }
     public static void main(String[] args){
         char [][] board = new char[10][10];
         fillBoard(board);
