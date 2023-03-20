@@ -2,8 +2,9 @@ package eduweb.kursprogramowaniawjava._3_rozpoczynamyprojektgry._3_4_tworzymypla
 
 public class Main {
     public static void main(String[] args){
+        char [][] board = new char[10][10];
         printLetter();
-        printBoard();
+        printBoard(board);
     }
 
     static void printLetter(){
@@ -14,14 +15,15 @@ public class Main {
         System.out.print('\n');
     }
 
-    static void printBoard(){
-        for(int i = 0; i <= 10; i++){
-            if(i < 10){
+    static void printBoard(char[][] board){
+        for(int i = 0; i < 10; i++){
+            int numberToPrint = i + 1;
+            if(numberToPrint < 10){
                 System.out.print(' ');
             }
-            System.out.print(i);
+            System.out.print(numberToPrint);
             for(int j = 0;j < 10; j++){
-                char shipValue = getRandomShip(Math.random());
+                char shipValue = board[i][j];
                 System.out.print(shipValue);
             }
             System.out.print('\n');
