@@ -1,7 +1,7 @@
 package eduweb.kursprogramowaniawjava._3_rozpoczynamyprojektgry._3_7_konstruktory;
 
 public class Main {
-
+    // klasa wewnętrzna
     static class Complex {
         double real;
         double img;
