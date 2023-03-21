@@ -1,4 +1,4 @@
-package eduweb.kursprogramowaniawjava._3_rozpoczynamyprojektgry._3_6_klasyiobiekty;
+package eduweb.kursprogramowaniawjava._3_rozpoczynamyprojektgry._3_7_konstruktory;
 
 public class Main {
 
